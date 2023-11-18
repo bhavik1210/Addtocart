@@ -1,0 +1,78 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    padding: 10px;
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.nav{
+    padding: 10px;
+}
+.icon{
+    padding: 10px 20px;
+}
+.icon i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.flexcont{
+    display: flex;
+    justify-content: space-between;
+}
+.cartdetails {
+    padding: 20px;
+    background-color: #ddd;
+    position: relative;
+    width: 300px;
+  }
+  
+  .cartdetails .fa-close {
+    color: red; /* You can choose any color for the close icon */
+    cursor: pointer;
+    position: absolute;
+    top: 10px ;
+    right: 0px;
+    font-size: 20px;
+  }
+  
+  .cartdetails p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cartdetails img {
+    max-width: 100px; /* Set the maximum width for the image */
+    height: auto;
+    mix-blend-mode: color-burn;
+  }
+
+  .chcpage{
+    display: flex;
+  }
+  .chcpage .img{
+    width: 30%;
+  }
+  .chcpage .icon{
+    width: 5%;
+    padding : 5px;
+  }
